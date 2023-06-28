@@ -1,0 +1,32 @@
+{
+  "name": "internship_task",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@azure-rest/ai-translation-text": "^1.0.0-beta.1",
+    "@progress/kendo-react-dropdowns": "^5.14.1",
+    "axios": "^1.4.0",
+    "file-saver": "^2.0.5",
+    "microsoft-cognitiveservices-speech-sdk": "^1.29.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ssml-builder": "^0.4.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.37",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "vite": "^4.3.9"
+  }
+}
